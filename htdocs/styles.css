@@ -1,0 +1,333 @@
+.main-title {
+background-color: #2c3e50;
+color: white;
+font-family: cursive;
+text-align: left;
+}
+
+.login{
+  color: #309ACE;
+  text-align: right;
+}
+
+.ui-content {
+  padding: 1px 10px;
+  text-align: right;
+  text-decoration: none;
+
+}
+
+.login-section {
+  color: black;
+  padding-right: 15px;
+  text-align: right;
+}
+.start-btns {
+  background-color: #2c3e50 ;
+  color: white;
+  font: 18px times;
+  padding-right: 15px;
+  text-align: right;
+  word-spacing: 1px;
+}
+
+.button {
+  background-color: #2c3e50 ;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.underline {
+  border-bottom: 1px solid #000000;
+  display: block;
+  width: 100%;
+}
+
+.welcome{
+  font-family: cursive;
+  font-size: 18px;
+}
+
+/* The Modal (background) */
+.modal {
+    background-color: rgb(45,62,79); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: none; /* Hidden by default */
+    height: 100%; /* Full height */
+    left: 0;
+    overflow: auto; /* Enable scroll if needed */
+    position: fixed; /* Stay in place */
+    top: 0;
+    width: 100%; /* Full width */
+    z-index: 1; /* Sit on top */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+}
+
+.modal-title {
+  text-align: center;
+  font-family:serif;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* The navigation bar */
+.navbar {
+    background-color: #2c3e50 ;
+    overflow: hidden;
+    padding: 0 20px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    color: white;
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
+
+body {
+  min-height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+footer {
+  background-color: #2c3e50 ;
+  bottom: 0;
+  color: white;
+  font-family: cursive;
+  font-size: 16px;
+  height: 135px;
+  padding: 45px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.upload-form {
+text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  flex: 0 1 auto;
+}
+
+.logo-text {
+  background: white;
+  font-family: lakeshore;
+  font-size: 37px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+body {
+  background: rgb(149, 194, 215);
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+html, body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'airstreamregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/Airstream-webfont.eot');
+  src: url('./fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'), url('./fonts/Airstream-webfont.woff') format('woff'), url('./fonts/Airstream-webfont.ttf') format('truetype'), url('./fonts/Airstream-webfont.svg#airstreamregular') format('svg');
+}
+
+@font-face {
+  font-family: 'lakeshore';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/LAKESHOR-webfont.eot');
+  src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/LAKESHOR-webfont.woff') format('woff'), url('fonts/LAKESHOR-webfont.ttf') format('truetype'), url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
+}
+
+.thumbnail-image {
+  display: block;
+  width: 100%;
+}
+
+.thumbnail-item {
+  border: 1px solid rgb(100%, 100%, 100%);
+  border: 1px solid rgba(100%, 100%, 100%, 0.8);
+  display: inline-block;
+  max-width: 120px;
+  min-width: 120px;
+  transition: transform 133ms ease-in-out;
+}
+
+.thumbnail-item:hover {
+  transform: scale(1.2);
+}
+
+.thumbnail-list {
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: space-between;
+  list-style: none;
+  order: 2;
+  overflow-x: auto;
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
+.thumbnail-title {
+  background: rgb(96, 125, 139);
+  color: rgb(202, 238, 255);
+  display: block;
+  font-size: 18px;
+  margin: 0;
+  padding: 4px 10px;
+}
+
+.detail-image-container {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.detail-image-frame {
+  position: relative;
+  text-align: center;
+  transition: transform 333ms cubic-bezier(1, .06, .28, 1);
+  ;
+}
+
+.is-tiny {
+  transform: scale(0.001);
+  transition: transform 0ms;
+}
+
+.detail-image {
+  width: 90%;
+}
+
+.detail-image-title {
+  bottom: -16px;
+  color: white;
+  font-family: airstreamregular;
+  font-size: 40px;
+  left: 4px;
+  position: absolute;
+  text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+}
+
+.hidden-detail .detail-image-container {
+  display: none;
+}
+
+.hidden-detail .thumbnail-list {
+  align-items: center;
+  flex-direction: column;
+}
+
+.hidden-detail .thumbnail-item {
+  max-width: 80%;
+}
+
+@media all and (min-width: 768px) {
+  .main-content {
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .thumbnail-list {
+    flex-direction: column;
+    margin-left: 20px;
+    order: 0;
+    padding: 0 35px;
+  }
+}
+
+.thumbnail-item {
+  max-width: 260px;
+}
+
+.thumbnal-item+.thumbnail-tem {
+  margin-top: 20px;
+}
+
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  color: black;
+  font-size: 15px;
+  position: relative;
+}
+
+.next {
+  color: black;
+  font-size: 15px;
+  position: relative;
+}
